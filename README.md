@@ -4,18 +4,10 @@ An open set of photoplethysmography (PPG) projects that go from a raw optical se
 AI-assisted physiological demo. Five small projects, released so anyone can pick them up and
 adapt them.
 
-[![License MIT](https://img.shields.io/badge/code-MIT-blue.svg)](LICENSE)
-[![Media CC BY 4.0](https://img.shields.io/badge/media-CC%20BY%204.0-lightgrey.svg)](MEDIA-LICENSE.md)
-[![checks](https://github.com/PietroChierico/PulseCraft-PPG/actions/workflows/python-syntax-check.yml/badge.svg)](https://github.com/PietroChierico/PulseCraft-PPG/actions)
-[![no hardware needed](https://img.shields.io/badge/try-no%20hardware%20needed-brightgreen.svg)](tools/README.md)
-
 Each project comes with Arduino and ESP32 acquisition firmware, a 3D-printable case for the
 MAX3010x sensor, Python code for recording data and extracting features, a small machine-learning
 model, and a live GUI demo. A built-in signal simulator lets you run any of the wireless projects
 with no hardware at all.
-
-It was built end to end for the Khalifa University CMHS Summer Internship Program 2026, in the
-Biomedical Engineering and Biotechnology track, and is free to reuse and adapt.
 
 ## The five projects
 
@@ -94,28 +86,3 @@ PulseCraft-PPG/
 └── SAFETY.md
 ```
 
-## Citing
-
-If you use PulseCraft PPG in a course, a workshop, a paper or another kit, please cite it with
-[CITATION.cff](CITATION.cff). GitHub shows a "Cite this repository" button.
-
-## License
-
-Code is MIT ([LICENSE](LICENSE)). The STL files, photos and diagrams are CC BY 4.0
-([MEDIA-LICENSE.md](MEDIA-LICENSE.md)). Keep attribution to Pietro Chierico when you reuse the
-code or the media.
-
-## Safety
-
-For education and research prototyping. It is not a medical device, not a diagnostic tool, and
-not for clinical decisions. Project 04 is a short, voluntary, supervised breath-hold and should be
-stopped at any discomfort. See [SAFETY.md](SAFETY.md).
-
-## Author
-
-Pietro Chierico, PhD candidate in Biomedical Engineering. Built end to end during a visiting PhD
-period at Khalifa University.
-
-Visiting supervisor at Khalifa University, Prof. Mohamed Elgendi. Home PhD supervisor at
-Universitat Politècnica de València, Prof. José Javier Rieta. Built for the CMHS Summer Internship
-Program 2026, in the Biomedical Engineering and Biotechnology track.
