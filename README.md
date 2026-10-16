@@ -81,8 +81,5 @@ PulseCraft-PPG/
 ├── tools/        ppg_simulator.py for the no-hardware mode, and check_setup.py
 ├── docs/         Getting started, hardware, signal processing, troubleshooting, FAQ
 ├── requirements.txt
-├── CITATION.cff
-├── LICENSE       MIT for code. MEDIA-LICENSE.md is CC BY 4.0 for the STL, photos and diagrams
-└── SAFETY.md
 ```
 
